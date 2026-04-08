@@ -1,0 +1,7 @@
+{
+  "versionhistory_api": "https://versionhistory.googleapis.com/v1/chrome",
+  "chromiumdash_api": "https://chromiumdash.appspot.com/fetch_releases",
+  "download_base": "https://dl.google.com/linux/direct",
+  "snapshot_base": "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64",
+  "snapshot_last_change": "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2FLAST_CHANGE?alt=media"
+}

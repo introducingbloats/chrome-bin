@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "introducingbloats": {
+      "locked": {
+        "lastModified": 1771934788,
+        "narHash": "sha256-StRJjVtoKFzEoHpibUcd8zTdPe5mW1cHAAH6TALH23M=",
+        "owner": "introducingbloats",
+        "repo": "core.flakes",
+        "rev": "a24e88ce7a2970c9dfbb9dbfd1dc6710614ea0e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "introducingbloats",
+        "ref": "main",
+        "repo": "core.flakes",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1775610697,
+        "narHash": "sha256-fw3+p16ZokENxpWPCLR7ngHUPz5lPvZZzKpQUwRgiXE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4f9024bce4025dc9a16d9fb27dd258d6cdf52862",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "introducingbloats": "introducingbloats",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

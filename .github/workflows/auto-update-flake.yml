@@ -1,0 +1,17 @@
+name: Hourly Version Check and Bump Update
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour. UTC
+  workflow_dispatch: 
+
+concurrency:
+  group: auto-update-${{ github.repository }}
+  cancel-in-progress: true
+
+jobs:
+  daily-nix-bump:
+    uses: introducingbloats/introducingbloats/.github/workflows/auto-update-flake.yml@main
+    permissions:
+      contents: write
+    secrets: inherit
