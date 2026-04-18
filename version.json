@@ -17,10 +17,10 @@
   "canary": {
     "version": "149.0.7795.0",
     "position": "1615539",
-    "hash": "sha256-13S0M7mJaIwiv//HLekJNF7Z/HaoOwRkTIpSItagLJE="
+    "hash": "sha256-f9rG2cNZCQU9WNFqInFUtFyJ1g/Yoqcvf3XD8xz89yQ="
   },
   "snapshot": {
-    "position": "1617110",
-    "hash": "sha256-WzMTXApT61atGC6LDp3mwMEENU2Z29h3MC6zeAC0e9I="
+    "position": "1617123",
+    "hash": "sha256-FadFTo8wpuV1uhypM0ZQByb/HBBnctmKhyxd+aTbKq8="
   }
 }
