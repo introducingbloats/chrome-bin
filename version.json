@@ -1,8 +1,8 @@
 {
   "stable": {
-    "version": "148.0.7778.96",
+    "version": "148.0.7778.167",
     "position": "1610480",
-    "hash": "sha256-Rmowgy0t/GJkiu28ZkXdzi5dzFxpFpzhcbZgsdFKl0c="
+    "hash": "sha256-1k9PrK1mpUJFJ6RbC3ZEN0CqOLX4JbGpmpXQrDpZTVU="
   },
   "beta": {
     "version": "149.0.7827.3",
@@ -20,7 +20,7 @@
     "hash": "sha256-EzopmKvxpN2rA53JOWA89AVDGtJ1RuN3/V645Du5a68="
   },
   "snapshot": {
-    "position": "1629379",
-    "hash": "sha256-HzZvhmQe6jrJS+pQZzRFep4JkSQn8CYFh/AXvsYTduk="
+    "position": "1629464",
+    "hash": "sha256-liSNHlpPCi5u6Jnmema7ixa3/NTiAOo460Jo4s+iZTM="
   }
 }
