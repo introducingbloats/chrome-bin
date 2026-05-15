@@ -15,12 +15,12 @@
     "hash": "sha256-fb+ldv8LqBEFcBKyX2HFx54161bHyDJdyJ+3RzkIovg="
   },
   "canary": {
-    "version": "150.0.7841.0",
-    "position": "1630574",
-    "hash": "sha256-5VrWRcj1dm/WK4PzpdYXhDjWNUvsXiond5x3lSA2e3c="
+    "version": "150.0.7842.0",
+    "position": "1631268",
+    "hash": "sha256-G+VEPlmz4ng6YfVHAbWsaOMiDOCIPWgN/zki/v7vTrI="
   },
   "snapshot": {
-    "position": "1631590",
-    "hash": "sha256-rsdGHGN7a9MLmGVWfPMbenP1jZA1+yMjzNbwUuSEN4A="
+    "position": "1631615",
+    "hash": "sha256-XDcl1bgqdedNEc024jpOlppPKiRt/gq+ATNAd2h08zY="
   }
 }
