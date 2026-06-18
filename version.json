@@ -10,9 +10,9 @@
     "hash": "sha256-kUcZ1b6u1KacppWhpWjPeib3+GkEA8GeQZK1UqWnV0Y="
   },
   "dev": {
-    "version": "151.0.7886.2",
-    "position": "1644562",
-    "hash": "sha256-Yfbm1Fb9zKMktPY49LNwig4aSDppHb6kenEnWrKnZVo="
+    "version": "151.0.7896.2",
+    "position": "1647918",
+    "hash": "sha256-7J/dh2Lx2Dg4xJKqFsHznC04TMwM2dA+ZzwTzIbgpvk="
   },
   "canary": {
     "version": "151.0.7898.0",
@@ -20,7 +20,7 @@
     "hash": "sha256-rP9iPBLSbEawls+LJA6kcT1DQhNB6jM7WlLDgHySbHU="
   },
   "snapshot": {
-    "position": "1648942",
-    "hash": "sha256-2a71bq+vZBhx4SpkdsBB4vi+BLsa323211/iXHhAGDg="
+    "position": "1649071",
+    "hash": "sha256-kXL9B6p8QD84fUTWaeDGh9Xv0WU7PF4G9rK8rhRk/MM="
   }
 }
