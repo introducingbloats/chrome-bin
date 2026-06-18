@@ -33,7 +33,9 @@
   libva,
   pipewire,
   xorg,
+  pciutils,
   vulkan-loader,
+  addDriverRunpath,
   mesa,
   libGL,
   systemd,
@@ -115,6 +117,7 @@ stdenv.mkDerivation (finalAttrs: {
     xorg.libXtst
     xorg.libXcursor
     xorg.libXScrnSaver
+    pciutils
     vulkan-loader
     mesa
     libGL
@@ -144,9 +147,16 @@ stdenv.mkDerivation (finalAttrs: {
 
     cp -r opt/google/${optDir} $out/opt/${optDir}
 
+    chromeDir="$out/opt/${optDir}"
+    # Dawn fixes
+    rm -f "$chromeDir/libvulkan.so.1"
+    ln -s "${lib.getLib vulkan-loader}/lib/libvulkan.so.1" \
+      "$chromeDir/libvulkan.so.1"
+    
     # Wrap the source binary (srcBin) to the output binary name (mainBin)
-    makeWrapper "$out/opt/${optDir}/${srcBin}" "$out/bin/${mainBin}" \
+    makeWrapper "$chromeDir/${srcBin}" "$out/bin/${mainBin}" \
       --prefix LD_LIBRARY_PATH : "${lib.makeLibraryPath finalAttrs.buildInputs}" \
+      --prefix XDG_DATA_DIRS : "${addDriverRunpath.driverLink}/share" \
       --add-flags "\''${NIXOS_OZONE_WL:+--ozone-platform-hint=auto --enable-features=WaylandWindowDecorations}"
 
     # For stable channel, also create a google-chrome symlink
