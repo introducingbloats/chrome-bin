@@ -1,8 +1,8 @@
 {
   "stable": {
-    "version": "151.0.7922.137",
+    "version": "151.0.7922.169",
     "position": "1654411",
-    "hash": "sha256-5tq/BEz5zQJ5z+hu+kMWgsGL/AbQYznOBVqqh66HFyc="
+    "hash": "sha256-ZXJHgxBVPLJf3LS6L7VFm0csLHZfX2jpg31JZOiofx4="
   },
   "beta": {
     "version": "152.0.7977.42",
