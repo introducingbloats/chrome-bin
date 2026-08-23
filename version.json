@@ -15,9 +15,9 @@
     "hash": "sha256-9Za8XPZo/l5J33ggOB2SG4djQ44hys1oHMvnqe/m9SY="
   },
   "canary": {
-    "version": "154.0.8019.0",
-    "position": "1684546",
-    "hash": "sha256-jdbXP/3JropYiljEQa1EurLKXF9sRKbzdLVVwNDS4pg="
+    "version": "154.0.8020.0",
+    "position": "1684548",
+    "hash": "sha256-86S6OPO+wXQFU4FIVoZ7SbbxL4YUXtLFMg0ALXCDHYk="
   },
   "snapshot": {
     "position": "1684551",
