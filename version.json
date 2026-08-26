@@ -5,9 +5,9 @@
     "hash": "sha256-Tq4HNqgS2byFHNKTf3rwDkfbr4MFhF7tRScD/wCYc8c="
   },
   "beta": {
-    "version": "153.0.8010.5",
+    "version": "153.0.8010.12",
     "position": "1681091",
-    "hash": "sha256-l44StLMd77lWXVed/5WKDfJPBQrhINa75p5RgtYsvMA="
+    "hash": "sha256-gQ//Mkkuz5UZ+Lf1E+F8LgWJC9hdvjE5roAInrTuLws="
   },
   "dev": {
     "version": "154.0.8013.2",
@@ -20,7 +20,7 @@
     "hash": "sha256-02PX2SoHtLgbKsuXTlTw7TG/bO5jqIE45g6MYUMeAvQ="
   },
   "snapshot": {
-    "position": "1686414",
-    "hash": "sha256-mOY0IbVFRuCDzgffSEO4de/375evfB8INl2d/zkEufc="
+    "position": "1686537",
+    "hash": "sha256-y5RdUQxRjiqTqLiFu7pluD3Xg36Lnrijpvg1GZcmytY="
   }
 }
