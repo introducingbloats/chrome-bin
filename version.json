@@ -10,17 +10,17 @@
     "hash": "sha256-5krtE2ci/sDJWNY4BKsHoFSaMi7TkCyOP1jginRse9c="
   },
   "dev": {
-    "version": "158.0.8117.2",
-    "position": "1724140",
-    "hash": "sha256-mjEWkIIwUIdiYCSN1Nft+pY2G+9sZeh7DfBTnGh6NJU="
+    "version": "159.0.8130.0",
+    "position": "1729750",
+    "hash": "sha256-cxNflC9ku7Ds8tI4tV0MHxn6cm4RbGAHpR4yCaMAzJc="
   },
   "canary": {
-    "version": "159.0.8131.0",
-    "position": "1730166",
-    "hash": "sha256-aWOViXx2ExzzkBL0yPO7qgZWbM7waxTaS0g6dWjQA6I="
+    "version": "159.0.8132.0",
+    "position": "1730971",
+    "hash": "sha256-4ohuBObrvlowCGDlmwccFr192Le2pjC2UrUwx1Gqk8A="
   },
   "snapshot": {
-    "position": "1731181",
-    "hash": "sha256-sEJrlAOkOhSMseuMjTONFhSxJ2C9jxLQ09KDbiF/ptk="
+    "position": "1731415",
+    "hash": "sha256-VSp4r+LC8hT18i6FFbd95fMP80NK3UNYKBUOqGjTAVs="
   }
 }
