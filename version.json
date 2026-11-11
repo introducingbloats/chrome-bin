@@ -1,8 +1,8 @@
 {
   "stable": {
-    "version": "157.0.8103.50",
+    "version": "157.0.8103.78",
     "position": "1717349",
-    "hash": "sha256-khSL0U3AWCOmQGHC+vzyDU2Cs/xW9YMSBvFtKsnuP3k="
+    "hash": "sha256-TXQGNrXJb2h3mGAsWq1qWicPRN0C5I2wY4rneqSGexs="
   },
   "beta": {
     "version": "158.0.8127.18",
@@ -15,12 +15,12 @@
     "hash": "sha256-2zMp5ZSi5gE1+VKi07wPvn2VucNWctHnnvhMkLkDwPo="
   },
   "canary": {
-    "version": "160.0.8155.0",
-    "position": "1741235",
-    "hash": "sha256-F+UbkRQWi3evY+Eivc2BzQAgot/nq5lapDLt0rD3yR0="
+    "version": "160.0.8156.0",
+    "position": "1741650",
+    "hash": "sha256-YCsFQko26wkWd7+loyHVJviXv+QFXmBWR4b9r7FfXlA="
   },
   "snapshot": {
-    "position": "1741832",
-    "hash": "sha256-mknd8h1qjrHxJNnDVVAtLRpPN9PTweFRRIav0Qwhygk="
+    "position": "1742299",
+    "hash": "sha256-MxBaMgeJ4D1Re6I4SABd2asR8yaGzTmCkYY3enBxbCs="
   }
 }
