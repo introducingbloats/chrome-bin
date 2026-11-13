@@ -39,6 +39,16 @@
   mesa,
   libGL,
   systemd,
+
+    wayland,
+    icu,
+    libglvnd,
+    libpcap,
+    bzip2,
+    coreutils,
+    util-linux,
+    curl,
+    wget,
   channel ? "stable",
 }:
 let
@@ -122,6 +132,16 @@ stdenv.mkDerivation (finalAttrs: {
     mesa
     libGL
     systemd
+
+    wayland
+    icu
+    libglvnd
+    libpcap
+    bzip2
+    coreutils
+    util-linux
+    curl
+    wget
   ];
 
   autoPatchelfIgnoreMissingDeps = [
